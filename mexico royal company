@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>México Royal Company</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Arial', sans-serif;
+}
+body {
+background-color: #f5f5f5;
+color: #333;
+line-height: 1.6;
+}
+header {
+background-color: #0a2342;
+color: #fff;
+padding: 2rem;
+text-align: center;
+}
+.logo-container {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+margin-bottom: 1rem;
+}
+.logo {
+width: 80px;
+height: 80px;
+background-color: #0a2342;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #ffc107;
+
+font-weight: bold;
+font-size: 1.2rem;
+border: 2px solid #ffc107;
+}
+nav {
+background-color: #1a3b69;
+padding: 1rem;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 2rem;
+flex-wrap: wrap;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+transition: color 0.3s;
+}
+nav a:hover {
+color: #ffc107;
+}
+main {
+max-width: 1200px;
+margin: 2rem auto;
+padding: 0 1rem;
+}
+section {
+background-color: #fff;
+padding: 2rem;
+margin-bottom: 2rem;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+}
+h2 {
+color: #0a2342;
+margin-bottom: 1.5rem;
+border-bottom: 2px solid #ffc107;
+padding-bottom: 0.5rem;
+}
+h3 {
+color: #1a3b69;
+margin: 1rem 0 0.5rem;
+}
+ul {
+margin-left: 1.5rem;
+margin-bottom: 1rem;
+}
+.info-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 2rem;
+}
+.contact-item {
+margin-bottom: 0.5rem;
+}
+.social-links {
+display: flex;
+gap: 1rem;
+margin-top: 1rem;
+}
+.social-link {
+background-color: #0a2342;
+color: #fff;
+padding: 0.5rem 1rem;
+border-radius: 4px;
+text-decoration: none;
+transition: background-color 0.3s;
+}
+
+.social-link:hover {
+background-color: #ffc107;
+color: #0a2342;
+}
+.org-chart {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 1rem;
+text-align: center;
+}
+.org-position {
+background-color: #f0f4f8;
+padding: 1rem;
+border-radius: 8px;
+border-left: 4px solid #ffc107;
+}
+.policy-item, .strategy-item {
+margin-bottom: 1rem;
+padding-left: 1rem;
+border-left: 3px solid #1a3b69;
+}
+footer {
+background-color: #0a2342;
+color: #fff;
+text-align: center;
+padding: 2rem;
+margin-top: 2rem;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="logo-container">
+<div class="logo">
+<span>MR</span>
+</div>
+<div>
+<h1>México Royal Company</h1>
+<p>Experiencias Inolvidables en el Mar Caribe y el Pacífico Mexicano</p>
+</div>
+
+</div>
+</header>
+<nav>
+<ul>
+<li><a href="#empresa">Empresa</a></li>
+<li><a href="#mision-vision">Misión y Visión</a></li>
+<li><a href="#valores">Valores</a></li>
+<li><a href="#politicas">Políticas</a></li>
+<li><a href="#estrategias">Estrategias</a></li>
+<li><a href="#servicios">Servicios y Destinos</a></li>
+<li><a href="#organigrama">Organigrama</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+<main>
+<section id="empresa">
+<h2>Información de la Empresa</h2>
+<div class="info-grid">
+<div>
+<p><strong>Clasificación:</strong> Sociedad Anónima de Capital Variable (S.A. de
+
+C.V.)</p>
+
+<p><strong>Razón social:</strong> México Royal Company, S.A. de C.V.</p>
+<p><strong>Nombre comercial:</strong> México Royal Company</p>
+<h3>Descripción</h3>
+<p>México Royal Company es una línea de cruceros de lujo que ofrece viajes
+inolvidables por las aguas cristalinas del Mar Caribe y el Pacífico Mexicano. Con una flota de
+barcos modernos y elegantes, nos enfocamos en brindar experiencias únicas y personalizadas
+a nuestros pasajeros.</p>
+</div>
+<div>
+<h3>Datos de Contacto</h3>
+<p class="contact-item"><strong>Dirección:</strong> Calle 21 No. 224, 77667</p>
+<p class="contact-item"><strong>Teléfono:</strong> +52 (55) 1789 5698</p>
+<p class="contact-item"><strong>Correo electrónico:</strong>
+
+info@mexicoroyal.com.mx</p>
+
+<p class="contact-item"><strong>Página web:</strong> mexicoroyal.com.mx</p>
+<h3>Redes Sociales</h3>
+<div class="social-links">
+<a href="#" class="social-link">Instagram: @mexicoroyaloficial</a>
+
+<a href="#" class="social-link">Facebook: @mexicoroyalmx</a>
+<a href="#" class="social-link">TikTok: @mexicoroyaloficial</a>
+</div>
+</div>
+</div>
+</section>
+<section id="mision-vision">
+<h2>Misión y Visión</h2>
+<div>
+<h3>Misión</h3>
+<p>Ofrecer un servicio para todos que sea de buena calidad, fomentar un
+funcionamiento sano y organizado con los clientes y esa satisfacción en el desarrollo humano
+dentro de la empresa con una convivencia correcta.</p>
+</div>
+<div style="margin-top: 1.5rem;">
+<h3>Visión</h3>
+<p>Implementar nuevas tecnologías e innovaciones, la atención y los servicios,
+perfeccionar la administración y organización empresarial, gestión al talento de cada uno y
+conseguir la máxima excelencia humana en la empresa.</p>
+</div>
+</section>
+<section id="valores">
+<h2>Valores</h2>
+<ul>
+<li><strong>Seguridad:</strong> Nos comprometemos a garantizar el bienestar de
+nuestros pasajeros y tripulantes mediante un mantenimiento riguroso de nuestras
+embarcaciones y la formación continua de la tripulación.</li>
+<li><strong>Excelencia:</strong> Buscamos superar las expectativas de nuestros
+clientes en cada interacción. Ofrecemos un servicio amable, atento, profesional y
+personalizado, creando experiencias memorables y satisfaciendo sus necesidades con
+eficiencia y calidad.</li>
+<li><strong>Sustentabilidad y respeto ambiental:</strong> Estamos comprometidos
+con la protección y conservación de los ecosistemas marinos. Operamos de manera
+responsable, minimizando nuestro impacto ambiental, promoviendo prácticas ecológicas y
+educando a nuestros pasajeros sobre la importancia de cuidar nuestros océanos.</li>
+<li><strong>Pasión:</strong> amamos el mar y nos apasiona compartir su belleza y
+misterio con nuestros clientes. Fomentamos un espíritu de aventura y descubrimiento,
+ofreciendo experiencias emocionantes y enriquecedoras en un entorno único.</li>
+<li><strong>Integridad y transparencia:</strong> actuamos con honestidad, ética y
+transparencia en todas nuestras operaciones y comunicaciones. Cumplimos nuestras
+
+promesas, somos responsables de nuestras acciones y construimos relaciones basadas en la
+confianza mutua.</li>
+<li><strong>Responsabilidad del personal:</strong> Los empleados deberán cumplir
+con sus funciones de manera responsable y seguir los procedimientos establecidos por la
+empresa.</li>
+</ul>
+</section>
+<section id="politicas">
+<h2>Políticas</h2>
+<div class="policy-item">
+<h3>Seguridad de los pasajeros</h3>
+<ul>
+<li>Garantizamos la seguridad de todos los pasajeros.</li>
+<li>Protocolos de seguridad y capacitación constante de la tripulación.</li>
+</ul>
+</div>
+<div class="policy-item">
+<h3>Atención al cliente</h3>
+<ul>
+<li>Todo el personal deberá brindar un trato respetuoso, amable y profesional a los
+
+pasajeros.</li>
+</ul>
+</div>
+<div class="policy-item">
+<h3>Puntualidad y cumplimiento de itinerarios</h3>
+<ul>
+<li>Se respetarán los horarios de salida, llegada y actividades programadas al pie
+
+de la letra.</li>
+</ul>
+</div>
+<div class="policy-item">
+<h3>Conducta a bordo</h3>
+<ul>
+<li>Los pasajeros deberán respetar las normas del barco.</li>
+<li>Mantener una conducta adecuada para garantizar una convivencia segura y
+
+agradable.</li>
+</ul>
+</div>
+</section>
+
+<section id="estrategias">
+<h2>Estrategias</h2>
+<div class="strategy-item">
+<h3>Marketing y ventas</h3>
+<ul>
+<li>Utiliza fotos y vídeos de alta calidad para mostrar la experiencia de la
+
+embarcación.</li>
+
+<li>Publica contenido en redes o sitios web, ya sea del capitán o la tripulación,
+
+imágenes panorámicas del viaje y las buenas vistas.</li>
+</ul>
+</div>
+<div class="strategy-item">
+<h3>Personalización y experiencias únicas</h3>
+<ul>
+<li>El turismo busca cada vez más experiencias únicas. Ofrece tours
+personalizados con temáticas diferentes, eventos especiales a bordo (cenas, fiestas).</li>
+</ul>
+</div>
+<div class="strategy-item">
+<h3>Conocimiento del mercado y los clientes</h3>
+<ul>
+<li>Investigar a fondo al público, sus preferencias, las temporadas pico y los
+
+destinos más populares.</li>
+
+<li>Adapta los servicios a sus necesidades.</li>
+</ul>
+</div>
+<div class="strategy-item">
+<h3>Sostenibilidad y responsabilidad social</h3>
+<ul>
+<li>Busca alternativa de los combustibles fósiles, como el gas natural licuado
+
+(GNL), o la posibilidad de barcos híbridos.</li>
+
+<li>Sistemas de reciclaje a bordo y eliminar los plásticos de un solo uso.</li>
+</ul>
+</div>
+<div class="strategy-item">
+<h3>Protección del medio ambiente marino</h3>
+<ul>
+<li>Seguir rutas que eviten reservas marinas.</li>
+
+<li>Mantener una distancia sana de la flora y la fauna marina, y utilizar un sistema
+
+de anclaje que no dañe el fondo marino.</li>
+</ul>
+</div>
+</section>
+<section id="servicios">
+<h2>Servicios, Destinos y Experiencias</h2>
+<div class="info-grid">
+<div>
+<h3>Servicios</h3>
+<ul>
+<li>Alojamiento en lujosas habitaciones y suites con vistas al mar</li>
+<li>Gourmet internacional y cocina mexicana auténtica</li>
+<li>Entretenimiento en vivo, incluyendo shows de música y teatro</li>
+<li>Actividades a bordo, como yoga, spa y clases de cocina</li>
+<li>Excursiones en tierra en los puertos más emblemáticos de México</li>
+</ul>
+<h3>Experiencias únicas</h3>
+<ul>
+<li>Cena con el capitán</li>
+<li>Fiesta de bienvenida con música y cócteles</li>
+<li>Clases de baile y talleres de arte mexicano</li>
+</ul>
+</div>
+<div>
+<h3>Destinos</h3>
+<p><strong>Mar Caribe Mexicano:</strong></p>
+<ul>
+<li>Cancún</li>
+<li>Cozumel</li>
+<li>Playa del Carmen</li>
+<li>Tulum</li>
+</ul>
+<p style="margin-top: 1rem;"><strong>Pacífico Mexicano:</strong></p>
+<ul>
+<li>Puerto Vallarta</li>
+<li>Mazatlán</li>
+<li>Cabo San Lucas</li>
+</ul>
+
+</div>
+</div>
+</section>
+<section id="organigrama">
+<h2>Organigrama</h2>
+<div class="org-chart">
+<div class="org-position">
+<h4>CEO</h4>
+<p>Alvaro Chan</p>
+</div>
+<div class="org-position">
+<h4>Junta Directiva</h4>
+<p>Alvaro Chan</p>
+</div>
+<div class="org-position">
+<h4>Director General</h4>
+<p>Alitza Salazar</p>
+</div>
+<div class="org-position">
+<h4>Área de Producción</h4>
+<p>Alvaro Chan</p>
+</div>
+<div class="org-position">
+<h4>Área de Contabilidad</h4>
+<p>Franco Rincon</p>
+</div>
+<div class="org-position">
+<h4>Área de Publicidad</h4>
+<p>Alitza Salazar</p>
+</div>
+<div class="org-position">
+<h4>Área Administrativa</h4>
+<p>Axel Sales</p>
+</div>
+<div class="org-position">
+<h4>Recursos Humanos</h4>
+<p>Dylan Liceas</p>
+</div>
+</div>
+</section>
+</main>
+<footer id="contacto">
+
+<p>&copy; 2026 México Royal Company. Todos los derechos reservados.</p>
+<p>Mar Caribe y Pacífico Mexicano | Tel: +52 (55) 1789 5698 | Email:
+info@mexicoroyal.com.mx</p>
+</footer>
+</body>
+</html>
